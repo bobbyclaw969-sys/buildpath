@@ -273,7 +273,7 @@
     function calculateCPM() {
       if (tasks.length === 0) return [];
       
-      const taskMap = new Map(tasks.map(t => [t.id, { ...t }]));
+      const taskMap = new Map(tasks.map(t => [t.id, { ...t }]);
       const sorted = Array.from(taskMap.values());
       
       // Forward pass
